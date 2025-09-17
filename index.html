@@ -1,13 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>add new paragraph
-    </p>
+    <title>GPT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
+</head>
+
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <img id="img1" src="./images/gpt.png" alt="">
+        <a href="#home">New Chat</a>
+
+        <img id="img2" src="./images/search.png" alt="">
+        <a href="#news">Search Chat</a>
+
+        <img id="img3" src="./images/3box.png" alt="">
+        <a href="#contact">Library</a>
+        <br>
+        <img id="img4" src="./images/4play.png" alt="">
+        <a href="#contact">Sora</a>
+
+        <img id="img5" src="./images/5.png" alt="">
+        <a href="#contact">GPTs</a>
+
+        <img id="img6" src="./images/6.jpg" alt="">
+        <a href="#contact">Three.js Mentor</a>
+
+        <img id="img7" src="./images/7.jpg" alt="">
+        <a href="#contact">Consensus</a>
+        <br>
+
+        <img id="img8" src="./images/8.png" alt="">
+        <a href="#contact">New Project</a>
+
+        <img id="img9" src="./images/9.jpg" alt="">
+        <a href="#contact">Homework</a>
+        <br>
+
+        <a href="#contact">Chats</a>
+        <a href="#contact">Regular expression simplification</a>
+
+        <a href="#contact">Graph coloring fix</a>
+        <a href="#contact">Sudoku backtracking fix</a>
+        <a href="#contact">C++ 2D vector initialization</a>
+        <a href="#contact">Word Break solution debugging</a>
+
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <span id="text1">Hello</span>
+        <br>
+        <p>Hey Harshit! How Its going.</p>
+
+        <form action="" method="get">
+            <img id="plus" src="./images/plus.png" alt="">
+            <input type="text" value="" placeholder="       Ask Anything" />
+            <img id="mic" src="./images/mic.png" alt="">
+            <img id="stop" src="./images/stop.png" alt="">
+
+        </form>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
 </body>
+
 </html>
